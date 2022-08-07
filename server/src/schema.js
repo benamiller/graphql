@@ -5,8 +5,8 @@ const typeDefs = `
         "Get tracks array for homepage grid"
         tracksForHome: [Track!]!
     }
-    
-    "A track is a group of Modules that teaches about a specific topic"
+
+    "A Track is a group of Modules that teaches about a specific topic"
     type Track {
         "Uniqiue identifier"
         id: ID!
